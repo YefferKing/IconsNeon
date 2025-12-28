@@ -1,0 +1,11 @@
+# Robots.txt for Neon Icons
+# https://yefferking.github.io/IconsNeon/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yefferking.github.io/IconsNeon/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
