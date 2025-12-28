@@ -121,5 +121,3 @@ Todos los iconos están diseñados para brillar en fondos oscuros. Recomendamos 
 MIT License - Úsalos libremente en tus proyectos personales y comerciales.
 
 ---
-
-Hecho con 💜 para el modo oscuro
