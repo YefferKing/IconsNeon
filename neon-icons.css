@@ -45,43 +45,43 @@
 /* Neon Cyan */
 .neon-cyan {
     color: var(--neon-cyan);
-    filter: drop-shadow(0 0 5px var(--neon-cyan)) drop-shadow(0 0 10px var(--neon-cyan));
+    filter: drop-shadow(0 0 3px var(--neon-cyan));
 }
 
 /* Neon Magenta */
 .neon-magenta {
     color: var(--neon-magenta);
-    filter: drop-shadow(0 0 5px var(--neon-magenta)) drop-shadow(0 0 10px var(--neon-magenta));
+    filter: drop-shadow(0 0 3px var(--neon-magenta));
 }
 
 /* Neon Green */
 .neon-green {
     color: var(--neon-green);
-    filter: drop-shadow(0 0 5px var(--neon-green)) drop-shadow(0 0 10px var(--neon-green));
+    filter: drop-shadow(0 0 3px var(--neon-green));
 }
 
 /* Neon Orange */
 .neon-orange {
     color: var(--neon-orange);
-    filter: drop-shadow(0 0 5px var(--neon-orange)) drop-shadow(0 0 10px var(--neon-orange));
+    filter: drop-shadow(0 0 3px var(--neon-orange));
 }
 
 /* Neon Purple */
 .neon-purple {
     color: var(--neon-purple);
-    filter: drop-shadow(0 0 5px var(--neon-purple)) drop-shadow(0 0 10px var(--neon-purple));
+    filter: drop-shadow(0 0 3px var(--neon-purple));
 }
 
 /* Neon Yellow */
 .neon-yellow {
     color: var(--neon-yellow);
-    filter: drop-shadow(0 0 5px var(--neon-yellow)) drop-shadow(0 0 10px var(--neon-yellow));
+    filter: drop-shadow(0 0 3px var(--neon-yellow));
 }
 
 /* Neon Red */
 .neon-red {
     color: var(--neon-red);
-    filter: drop-shadow(0 0 5px var(--neon-red)) drop-shadow(0 0 10px var(--neon-red));
+    filter: drop-shadow(0 0 3px var(--neon-red));
 }
 
 /* Animations */
