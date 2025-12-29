@@ -272,95 +272,149 @@
             <h2 class="section-title">📦 Instalación</h2>
             <p class="section-subtitle">Elige el método que mejor se adapte a tu proyecto</p>
             
-            <div class="install-methods">
+            <div class="install-grid">
                 <!-- NPM Method -->
-                <div class="install-card">
-                    <div class="install-card-header">
-                        <span class="install-icon">📦</span>
-                        <h3>NPM</h3>
-                        <span class="install-badge">Recomendado</span>
-                    </div>
-                    <p class="install-desc">Para proyectos con Node.js, React, Vue, Angular, etc.</p>
-                    <div class="code-block install-code">
-                        <code>npm install neon-icons-library</code>
-                        <button class="copy-code-btn" data-code="npm install neon-icons-library">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                <div class="install-card npm-card">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"/>
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3>NPM</h3>
+                                <span class="badge badge-primary">Recomendado</span>
+                            </div>
+                        </div>
+                        <p class="card-desc">Para proyectos con Node.js, React, Vue, Angular, etc.</p>
+                        
+                        <div class="code-snippet">
+                            <code>npm install neon-icons-library</code>
+                            <button class="copy-btn-mini" data-code="npm install neon-icons-library" title="Copiar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <p class="code-label">Importar en tu código:</p>
+                        <div class="code-snippet">
+                            <code>import 'neon-icons-library/neon-icons.css';</code>
+                            <button class="copy-btn-mini" data-code="import 'neon-icons-library/neon-icons.css';" title="Copiar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <a href="https://www.npmjs.com/package/neon-icons-library" target="_blank" rel="noopener" class="card-link">
+                            Ver en npm
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
                             </svg>
-                        </button>
+                        </a>
                     </div>
-                    <p class="install-usage">Luego en tu código:</p>
-                    <div class="code-block install-code">
-                        <code>import 'neon-icons-library/neon-icons.css';</code>
-                        <button class="copy-code-btn" data-code="import 'neon-icons-library/neon-icons.css';">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                            </svg>
-                        </button>
-                    </div>
-                    <a href="https://www.npmjs.com/package/neon-icons-library" target="_blank" rel="noopener" class="install-link">
-                        Ver en npm →
-                    </a>
                 </div>
 
                 <!-- CDN Method -->
-                <div class="install-card">
-                    <div class="install-card-header">
-                        <span class="install-icon">🌐</span>
-                        <h3>CDN</h3>
-                        <span class="install-badge secondary">Más fácil</span>
-                    </div>
-                    <p class="install-desc">Agrega directamente en tu HTML, sin instalación.</p>
-                    <div class="code-block install-code">
-                        <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css"&gt;</code>
-                        <button class="copy-code-btn" data-code='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css">'>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                <div class="install-card cdn-card">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <line x1="2" y1="12" x2="22" y2="12"/>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3>CDN</h3>
+                                <span class="badge badge-secondary">Más fácil</span>
+                            </div>
+                        </div>
+                        <p class="card-desc">Agrega directamente en tu HTML, sin instalación.</p>
+                        
+                        <p class="code-label">Incluir CSS:</p>
+                        <div class="code-snippet">
+                            <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css"&gt;</code>
+                            <button class="copy-btn-mini" data-code='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css">' title="Copiar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <p class="code-label">JavaScript (opcional):</p>
+                        <div class="code-snippet">
+                            <code>&lt;script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"&gt;&lt;/script&gt;</code>
+                            <button class="copy-btn-mini" data-code='<script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"></script>' title="Copiar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <a href="https://www.jsdelivr.com/package/gh/yefferking/IconsNeon" target="_blank" rel="noopener" class="card-link">
+                            Ver en jsDelivr
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
                             </svg>
-                        </button>
+                        </a>
                     </div>
-                    <p class="install-usage">JavaScript (opcional):</p>
-                    <div class="code-block install-code">
-                        <code>&lt;script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"&gt;&lt;/script&gt;</code>
-                        <button class="copy-code-btn" data-code='<script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"></script>'>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
-                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                            </svg>
-                        </button>
-                    </div>
-                    <a href="https://www.jsdelivr.com/package/gh/yefferking/IconsNeon" target="_blank" rel="noopener" class="install-link">
-                        Ver en jsDelivr →
-                    </a>
                 </div>
 
                 <!-- Download Method -->
-                <div class="install-card">
-                    <div class="install-card-header">
-                        <span class="install-icon">📥</span>
-                        <h3>Descarga</h3>
+                <div class="install-card download-card">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3>Descarga</h3>
+                            </div>
+                        </div>
+                        <p class="card-desc">Descarga los archivos y agrégalos manualmente a tu proyecto.</p>
+                        
+                        <div class="download-actions">
+                            <a href="https://github.com/yefferking/IconsNeon/archive/refs/heads/main.zip" class="btn-download primary">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                Descargar ZIP
+                            </a>
+                            <a href="https://github.com/yefferking/IconsNeon" target="_blank" rel="noopener" class="btn-download secondary">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                        
+                        <p class="files-included">
+                            <span>📁</span> Incluye: neon-icons.css, icons.js y ejemplos
+                        </p>
                     </div>
-                    <p class="install-desc">Descarga los archivos y agrégalos a tu proyecto manualmente.</p>
-                    <div class="download-buttons">
-                        <a href="https://github.com/yefferking/IconsNeon/archive/refs/heads/main.zip" class="download-btn primary">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="7 10 12 15 17 10"/>
-                                <line x1="12" y1="15" x2="12" y2="3"/>
-                            </svg>
-                            Descargar ZIP
-                        </a>
-                        <a href="https://github.com/yefferking/IconsNeon" target="_blank" rel="noopener" class="download-btn secondary">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-                            </svg>
-                            Ver en GitHub
-                        </a>
-                    </div>
-                    <p class="install-hint">Incluye: neon-icons.css, icons.js y ejemplos</p>
                 </div>
             </div>
         </div>

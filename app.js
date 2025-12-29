@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderIcons();
 
     // Copy code buttons for installation section
-    document.querySelectorAll('.copy-code-btn').forEach(btn => {
+    document.querySelectorAll('.copy-btn-mini').forEach(btn => {
         btn.addEventListener('click', () => {
             const code = btn.dataset.code;
             if (code) {
