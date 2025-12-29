@@ -231,5 +231,3 @@ Si te gusta Neon Icons, ¡dale una estrella al repositorio! ⭐
 [![GitHub stars](https://img.shields.io/github/stars/yefferking/IconsNeon?style=social)](https://github.com/yefferking/IconsNeon)
 
 ---
-
-Hecho con 💜 por [YefferKing](https://github.com/yefferking) para el modo oscuro
