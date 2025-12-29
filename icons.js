@@ -455,7 +455,7 @@ const neonIcons = [
   { name: "umbrella", color: "purple", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7"/></svg>' },
   { name: "thermometer", color: "red", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>' },
   { name: "wind", color: "cyan", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/></svg>' },
-  { name: "tns", color: "green", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="8"/><circle cx="12" cy="9" r="5"/><circle cx="12" cy="9" r="2"/><path d="M7 17l5 5 5-5"/><path d="M9 19l3 3 3-3"/></svg>' },
+  { name: "tns", color: "green", svg: '<svg viewBox="0 0 200 250" fill="none" stroke="currentColor"><path d="M95 120C97 117 103 117 105 120L170 210C175 215 170 225 160 225H40C30 225 25 215 30 210L95 120Z" fill="currentColor" stroke="none"/><circle cx="100" cy="100" r="70" stroke-width="12" fill="none"/><circle cx="100" cy="100" r="40" stroke-width="10" fill="none"/></svg>' },
 ];
 
 // Export for use in other files
