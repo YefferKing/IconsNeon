@@ -1,0 +1,34 @@
+{
+  "name": "neon-icons-library",
+  "version": "1.0.0",
+  "description": "Una colección premium de iconos SVG con efectos neón para interfaces dark mode",
+  "main": "icons.js",
+  "style": "neon-icons.css",
+  "files": [
+    "neon-icons.css",
+    "icons.js",
+    "dist/"
+  ],
+  "keywords": [
+    "icons",
+    "neon",
+    "svg",
+    "dark-mode",
+    "css",
+    "ui",
+    "icon-library",
+    "glow",
+    "effects",
+    "web-icons"
+  ],
+  "author": "YefferKing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yefferking/IconsNeon.git"
+  },
+  "homepage": "https://yefferking.github.io/IconsNeon",
+  "bugs": {
+    "url": "https://github.com/yefferking/IconsNeon/issues"
+  }
+}
