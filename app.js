@@ -258,6 +258,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial render
     renderIcons();
 
+    // Copy code buttons for installation section
+    document.querySelectorAll('.copy-code-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const code = btn.dataset.code;
+            if (code) {
+                navigator.clipboard.writeText(code).then(() => {
+                    btn.classList.add('copied');
+                    showNotification('¡Código copiado al portapapeles!');
+                    
+                    setTimeout(() => {
+                        btn.classList.remove('copied');
+                    }, 2000);
+                });
+            }
+        });
+    });
+
     console.log('🌟 Neon Icons Library loaded!');
     console.log(`📦 ${neonIcons.length} icons available`);
 });

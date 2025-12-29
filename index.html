@@ -266,18 +266,116 @@
         </div>
     </div>
 
+    <!-- Installation Section -->
+    <section class="install-section" id="install">
+        <div class="container">
+            <h2 class="section-title">📦 Instalación</h2>
+            <p class="section-subtitle">Elige el método que mejor se adapte a tu proyecto</p>
+            
+            <div class="install-methods">
+                <!-- NPM Method -->
+                <div class="install-card">
+                    <div class="install-card-header">
+                        <span class="install-icon">📦</span>
+                        <h3>NPM</h3>
+                        <span class="install-badge">Recomendado</span>
+                    </div>
+                    <p class="install-desc">Para proyectos con Node.js, React, Vue, Angular, etc.</p>
+                    <div class="code-block install-code">
+                        <code>npm install neon-icons-library</code>
+                        <button class="copy-code-btn" data-code="npm install neon-icons-library">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="install-usage">Luego en tu código:</p>
+                    <div class="code-block install-code">
+                        <code>import 'neon-icons-library/neon-icons.css';</code>
+                        <button class="copy-code-btn" data-code="import 'neon-icons-library/neon-icons.css';">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <a href="https://www.npmjs.com/package/neon-icons-library" target="_blank" rel="noopener" class="install-link">
+                        Ver en npm →
+                    </a>
+                </div>
+
+                <!-- CDN Method -->
+                <div class="install-card">
+                    <div class="install-card-header">
+                        <span class="install-icon">🌐</span>
+                        <h3>CDN</h3>
+                        <span class="install-badge secondary">Más fácil</span>
+                    </div>
+                    <p class="install-desc">Agrega directamente en tu HTML, sin instalación.</p>
+                    <div class="code-block install-code">
+                        <code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css"&gt;</code>
+                        <button class="copy-code-btn" data-code='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/neon-icons.css">'>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="install-usage">JavaScript (opcional):</p>
+                    <div class="code-block install-code">
+                        <code>&lt;script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"&gt;&lt;/script&gt;</code>
+                        <button class="copy-code-btn" data-code='<script src="https://cdn.jsdelivr.net/gh/yefferking/IconsNeon@main/icons.js"></script>'>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <a href="https://www.jsdelivr.com/package/gh/yefferking/IconsNeon" target="_blank" rel="noopener" class="install-link">
+                        Ver en jsDelivr →
+                    </a>
+                </div>
+
+                <!-- Download Method -->
+                <div class="install-card">
+                    <div class="install-card-header">
+                        <span class="install-icon">📥</span>
+                        <h3>Descarga</h3>
+                    </div>
+                    <p class="install-desc">Descarga los archivos y agrégalos a tu proyecto manualmente.</p>
+                    <div class="download-buttons">
+                        <a href="https://github.com/yefferking/IconsNeon/archive/refs/heads/main.zip" class="download-btn primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Descargar ZIP
+                        </a>
+                        <a href="https://github.com/yefferking/IconsNeon" target="_blank" rel="noopener" class="download-btn secondary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                            Ver en GitHub
+                        </a>
+                    </div>
+                    <p class="install-hint">Incluye: neon-icons.css, icons.js y ejemplos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- How to Use Section -->
     <section class="usage-section">
         <div class="container">
-            <h2 class="section-title">Cómo Usar</h2>
+            <h2 class="section-title">🚀 Cómo Usar</h2>
             
             <div class="usage-grid">
                 <div class="usage-step">
                     <div class="step-number">1</div>
-                    <h3>Incluye el CSS</h3>
-                    <div class="code-block">
-                        <code>&lt;link rel="stylesheet" href="neon-icons.css"&gt;</code>
-                    </div>
+                    <h3>Instala o incluye</h3>
+                    <p>Usa npm, CDN o descarga los archivos</p>
                 </div>
                 
                 <div class="usage-step">
@@ -324,5 +422,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-</CodeContent>
-<parameter name="Complexity">5
